@@ -1,0 +1,110 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: #233666;
+    font-family: 'Akshar', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+}
+.container{
+    border-radius: 10px;
+    width: 330px;
+    margin: 50px auto;
+    background-color: #066163;
+    padding: 20px;
+}
+.name{
+
+    width: max-content;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+.content{
+    position: relative;
+    border: 1px solid black ;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+   
+    cursor: url('./copy-two-paper-sheets-interface-symbol_icon-icons.com_73283.png'), pointer;
+}
+.passLengthVall{
+    font-size: 25px;
+    font-weight: 300;
+}
+.passLen{
+    width: 100%;
+}
+.passLength{
+    margin: 20px 0px;
+    text-align: center;
+}
+.settingVallue{
+    border-radius: 10px;
+    border: none;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    background-color: #033d03;
+}
+.setting button:hover{
+   text-shadow: 1px 1px 2px black, 0 0 1em rgb(0, 0, 0);
+}
+.setting button:active{
+    background-color: #011b01; 
+    color: antiquewhite;
+}
+.settingVallue{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 5px;
+}
+.settingVallueOff{
+    border-radius: 10px;
+    border: none;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 5px;
+    background-color: #091c09;
+    color: azure;
+    text-decoration: 2px line-through red;
+    color: #242f4a;
+}
+
+.runBtn{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    background-color: #0634a9;
+}
+.runBtn:hover{
+    background-color: #031b55;   
+}
+.runBtn:active{
+    color: white; 
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(0, 0, 0);
+}
+.wind{
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 100px;
+    margin-left: -50px;
+    padding: 10px;
+    text-align: center;
+    color: yellow;
+    background-color: rgba(255, 255, 0, 0.2);
+    border-radius: 10px;  
+}
