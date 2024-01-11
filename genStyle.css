@@ -17,6 +17,7 @@ body{
     -moz-user-select: none; /* Old versions of Firefox */
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none;
+  
     border-radius: 10px;
     width: 330px;
     margin: 50px auto;
